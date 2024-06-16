@@ -23,7 +23,6 @@ jobs:
     - name: Print
       run: |
         ls -l
-        type testng.xml
     - name: Build with Maven
       run: mvn test -Preg
     - name: Archive Artifacts
